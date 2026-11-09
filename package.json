@@ -1,0 +1,27 @@
+{
+  "name": "ny-live-wallpaper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "New Year Live Wallpaper: living wallpaper for Windows (Lively), MOS 12 / Plasma 5 and MOS 13 / Plasma 6",
+  "author": "xp9k (https://github.com/xp9k)",
+  "license": "MIT",
+  "homepage": "https://github.com/xp9k/ny-live-wallpaper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xp9k/ny-live-wallpaper.git"
+  },
+  "scripts": {
+    "assets": "python build/assets.py",
+    "check": "node --check src/scene.js && node --check src/wallpaper.js && node --check build/build.cjs && node --check build/plasma5.cjs && node --check build/lively.cjs && node --check build/preview.cjs && node --check build/verify.cjs && node --check build/browser.cjs",
+    "build": "node build/build.cjs",
+    "preview": "node build/preview.cjs",
+    "settings": "python build/settings.py",
+    "rpm": "sh build/rpm.sh",
+    "setup:browser": "playwright install chromium",
+    "test": "node build/verify.cjs"
+  },
+  "devDependencies": {
+    "fflate": "^0.8.3",
+    "playwright": "1.65.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "AppVersion": "2.0.6.1",
+  "Title": "New Year Live Wallpaper",
+  "Thumbnail": "thumbnail.jpg",
+  "Preview": "preview.gif",
+  "Desc": "Живые обои: новогодняя комната, свет меняется по времени суток. Ночью горят ёлка, торшер и телевизор, за окном идёт снег, у телевизора помехи, часы на серванте показывают настоящее время.",
+  "Author": "xp9k",
+  "License": "MIT",
+  "Contact": "https://github.com/xp9k/ny-live-wallpaper",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": null,
+  "IsAbsolutePath": false
+}

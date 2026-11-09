@@ -1,0 +1,15 @@
+{
+  "KPackageStructure": "Plasma/Wallpaper",
+  "KPlugin": {
+    "Id": "org.ny.livewallpaper",
+    "Name": "New Year Live Wallpaper",
+    "Description": "Living wallpaper: a New Year room lit by the time of day. The tree, floor lamp and TV glow at night, snow falls outside, the old TV shows antenna interference, the mantel clock shows the real time. Native Qt Quick rendering.",
+    "Description[ru]": "Живые обои: новогодняя комната, свет меняется по времени суток. Ночью горят ёлка, торшер и телевизор, за окном идёт снег, у телевизора помехи, часы на серванте показывают настоящее время. Нативная отрисовка Qt Quick.",
+    "Version": "1.0.0",
+    "Authors": [{"Name": "xp9k", "Website": "https://github.com/xp9k"}],
+    "Website": "https://github.com/xp9k/ny-live-wallpaper",
+    "BugReportUrl": "https://github.com/xp9k/ny-live-wallpaper/issues",
+    "Icon": "preferences-desktop-wallpaper"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}
